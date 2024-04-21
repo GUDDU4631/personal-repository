@@ -1,0 +1,569 @@
+*{
+    margin:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+
+.main-box{
+               
+    background-image :url(image/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 700px ;
+    position: relative;
+    width:auto ;
+    justify-content: space-around;
+}
+
+
+
+.box{
+    height:700px;
+    width:100%;
+    opacity: calc(68%);
+    position: relative;
+    background-color: black;
+}
+
+.navbar{
+    height:60px ;
+    width:100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.logo{
+    height:35px;
+    width:120px;
+    padding-left: 200px;
+    padding-top: 25px;
+    z-index: 10;
+
+}
+
+
+.select{
+    display: flex;
+    height:35px;
+    width:200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    z-index: 10;
+    
+}
+
+.lang{
+    height:35px ;
+    width:130px;
+    color:white;
+    text-align: center;
+    background-color: transparent;
+    margin-right:20px;
+    border: 1px solid white;
+    border-radius: 4px ;
+}
+
+.sign{
+    height:35px;
+    width:50%;
+    color:white;
+    background-color: red;
+    border:1px solid red;
+    border-radius: 4px ;
+}
+
+.sign:hover{
+    background-color: rgb(94, 0, 0);
+    border-color: rgb(94, 0, 0);
+}
+
+
+
+
+.content{
+    height:60px;
+    width:100%;
+    color:white;
+    position: absolute;
+    font-size:3rem; 
+    margin-top: 230px ;
+    text-align: center;
+    z-index: 10;
+}
+
+.sepration{
+    width:100%;
+    height:10px;
+    
+    background-color: gray;
+}
+.about{
+    margin-top: 20px    ;
+    font-size: 1.6rem ;
+}
+
+.log-in{
+    margin-top: 20px;
+    font-size:1.6rem ;
+}
+
+
+.email{
+    height:60px;
+    width:100%;
+
+}
+.email-input{
+    height: 40px;
+    width:300px;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.get-start{
+    height: 40px;
+    width:150px;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
+.get-start:hover{
+    background-color: rgb(94, 0, 0);
+    /* border-color: rgb(94, 0, 0); */
+}
+
+/*** box1 ***/
+
+.box1{
+    height: 378px;
+    width:100%;
+    background-color: black;
+    color:white;
+    padding: 72px 0px ;
+    z-index: 10;
+}
+
+.content-box1{
+    width:100%;
+    height:440px;
+    /* margin: 0px 80px 0px 80px ; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.content1-box1-box1{
+    align-content: center;
+    width:500px;
+    height:440px;
+}
+
+b{
+    font-size: 3rem;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.content2-box1-box2{
+    
+    justify-content: center;
+    align-content: center;
+    width:350px;
+    height:440px;
+}
+
+
+/*** box1-video **/
+
+
+
+.box1-video{
+
+    position: relative;
+    
+}
+
+.box1-video img{
+    height: 400px;
+    position: relative;
+    top:0%;
+    z-index: 10;
+}
+
+
+.box1-video video{
+    position:absolute;
+    top:20.8%;
+    width: 389px;
+    left: 20%;
+}
+
+
+.box1-sepration{
+    background-color: gray;
+    height:10px;
+    width: 100%;
+}
+
+
+
+/** box2 **/ 
+
+.box2{
+    height: 378px;
+    width:100%;
+    background-color: black;
+    color:white;
+    padding: 72px 0px ;
+    z-index: 10;
+}
+
+.content-box2{
+    width:100%;
+    height:440px;
+    /* margin: 0px 80px 0px 80px ; */
+    display: flex;
+    justify-content: center;
+}
+.content1-box2-box1{
+    align-content: center;
+    width:500px;
+    height:440px;
+
+}
+.content2-box2-box2 img{
+    height:350px ;
+    position: absolute;
+}
+
+
+.box2-sepration{
+    background-color: gray;
+    height:10px;
+    width: 100%;
+}
+
+
+/** download img **/ 
+
+.download{
+    height: 103px;
+    width:320px;
+    position: relative;
+    top: 65%;
+    left: 20%;
+    background-color:black;
+    border:2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.download img{
+    padding-top: 12px;
+    height:80px;
+    width:auto;
+    align-content: center;
+}
+
+.img img{
+    margin-right: 10px;
+}
+
+.content-img{
+    padding-top:12px;
+    padding-left: 70px;
+    width:150px;
+
+}
+
+
+.content1-img{
+    font-size: 16px;
+    height: 22px;
+    width:auto;
+    color:white;
+
+}
+
+.content2-img{
+    font-size: 10px;
+    height: 18px;
+    width:170px;
+    margin-top: 0%;
+    color:blue;
+
+}
+
+.download-img{
+    
+    justify-content: center;
+}
+
+.download-img i{
+    height:103px ;
+    width:70px;
+
+    text-align: center;
+    font-size:40px;
+    align-content: center;
+    color: black;
+    
+}
+
+
+/** box3 **/
+
+
+.box3{
+    height: 378px;
+    width:100%;
+    background-color: black;
+    color:white;
+    padding: 72px 0px ;
+    z-index: 10;
+}
+
+.content-box3{
+    width:100%;
+    height:440px;
+    /* margin: 0px 80px 0px 80px ; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.content1-box3-box1{
+    align-content: center;
+    width:500px;
+    height:440px;
+}
+
+b{
+    font-size: 3rem;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.content2-box3-box2{
+    
+    justify-content: center;
+    align-content: center;
+    width:350px;
+    height:440px;
+}
+
+
+/*** box3-video **/
+
+
+
+.box3-video{
+
+    position: relative;
+    
+}
+
+.box3-video img{
+    height: 400px;
+    position: relative;
+    top:0%;
+    z-index: 10;
+}
+
+
+.box3-video video{
+    position:absolute;
+    top: 8%;
+    width: 350px;
+    left: 25%;
+}
+
+
+.box3-sepration{
+    background-color: gray;
+    height:10px;
+    width: 100%;
+}
+
+
+/*** main ***/ 
+
+
+.main{
+    /* display: flex; */
+    justify-content: space-between;
+    height:935px ;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    padding: 75px 0px;
+    
+}
+
+
+.question{
+    height:65px;
+    width:1160px;
+    align-content: center;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 50px ;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.question1{
+    display: flex;
+    height:65px;
+    width:1160px;
+    padding:0px 40px ;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin-top: 50px;
+    margin-left: 170px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+
+}
+
+.question1:hover{
+    background-color: rgba(128, 128, 128, 0.67);
+
+}
+
+.membership{
+    height:103px;
+    width:920px;
+    align-items: center;
+    align-content: center;
+    margin: 60px 300px;
+}
+.membership-content{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.membership-search{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px ;
+    height:72px;
+    width: 100%;
+}
+
+.membership-email{
+    /* height:50px; */
+    width:374px;
+
+    /* display: flex;
+    justify-content: space; */
+}
+.membership-email input{
+    height:50px;
+    width:340px;
+    background-color: black;
+    border: 1px solid white;
+    padding-left: 30px;
+    font-size: 1rem;
+}
+
+/* .membership-button{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    padding-left: 20px;
+    margin-left: 25px;
+} */
+.membership-button button{
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    margin-left: 25px;
+    font-size: 1.5rem;
+    border: 2px solid red;
+
+}
+
+
+.main-sepration{
+    background-color: gray;
+    height:10px;
+    width: 100%;
+}
+
+
+
+/*** footer **/
+
+
+.footer{
+    height:500px;
+    width:100%;
+    background-color: black;
+
+}
+
+
+.footer-content{
+    height: 150px ;
+    width:100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contect{
+   padding-top: 50px;
+    margin-left: 200px;
+}
+
+.footer-content div{
+    margin-top: 20px;
+    
+}
+
+.footer-lang{
+    margin-top: 90px;
+    margin-left: 200px;
+    width: auto;
+    background-color: black;
+}
+.footer-lang select{
+    background-color: black;
+    font-size: 1.1rem;
+    width:150px ;
+}
+
+.footer-netfilx{
+    margin-top: 30px;
+    width:150px ;
+    font-size: 1.5rem;
+    margin-left: 200px;
+}
+
+.footer-content div{
+    
+    text-decoration: underline;
+}
