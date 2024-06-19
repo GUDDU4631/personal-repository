@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container button{
+    border: none;
+    background-color: transparent;
+    color: #e0e1dd;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: #415a77;
+    width: 100%;
+}
+.logo button{
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif   ;
+}
+.about ul{
+    display: flex;
+    list-style-type: none;
+}
+.HOME{
+    position: absolute;
+    z-index: 10;
+    background-color: #778da9b4;
+    border: 0.5vh solid #fff;
+    font-size: 3.5vh;
+    color: #0d1b2a;
+    height: 30vh;
+    width: 45vh;
+    border-radius: 3vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10vh;
+    display: flex;
+}
+.home-content{
+    display: none;
+}
+.ABOUT{
+    position: absolute;
+    z-index: 10;
+    background-color: #778da9b4;
+    border: 0.5vh solid #fff;
+    color: #0d1b2a;
+    font-size: 3.5vh;
+    height: 30vh;
+    width: 60vh;
+    border-radius: 3vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10vh;
+    
+}
+.about-content{
+    display: none;
+}
+.PROJECTS{
+    position: absolute;
+    z-index: 10;
+    background-color: #778da9b4;
+    border: 0.5vh solid #fff;
+    font-size: 3.5vh;
+    color: #0d1b2a;
+    height: 10vh;
+    width: 65vh;
+    border-radius: 3vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5vh;
+    display: flex;
+}
+.project-content{
+    display: none;
+}
+.contact-container{
+    position: absolute;
+    z-index: 10;
+    background-color: #778da9b4;
+    border: 0.5vh solid #fff;
+    font-size: 2.6vh;
+    color: #0d1b2a;
+    height: 20vh;
+    width: 50vh;
+    border-radius: 3vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5vh;
+    display: flex;
+}
+.CONTACT{
+    display: none;
+}
+
+li button{
+    font-size: 3vh;
+    margin: 0vh 5vh 0vh 2vh ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif   ;
+}
+.about-li li button:hover{
+    text-decoration: underline;
+   cursor: pointer;
+}
+.content{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    z-index: initial;
+    border-bottom: 2vh solid #778da9;
+    background-color: #0d1b2a;
+    height:90vh;
+}
+.content-1{
+    padding-left: 5vh;
+    font-size: 5vh;
+}
+.content-1 pre  span samp{
+    color:#ee82ee;
+    display: inline-block;
+    white-space: nowrap;
+    animation: textAnim .75s step-end infinite; /* to animate*/
+    border-right: 0.5vh solid #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    /* display: flex; */
+}
+.content-2{
+    padding-right: 5vh;
+}
+@keyframes textAnim {
+    from, to {border-color: transparent;}
+    50%{border-color:#fff;}
+    
+}
+.container-about{
+    height: 80vh;
+    background-color: #0d1b2a;
+    border-bottom: 2vh solid #778da9;
+    color: #fff;
+}
+.about-me p{
+    margin-top: 0.5vh;
+    font-size: 3.2vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    
+}
+.about-me{
+    padding: 10vh 0vh ;
+}
+.photo img{
+   height: 50vh;
+   /* border-radius: 50%; */
+   border: 0.5vh solid #fff;
+}
+.container-about nav{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 15vh;
+   padding-left: 5vh;
+   cursor: default;
+}
+.footer-container{
+    background-color: #415a77;
+    height: 40vh ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 8vh 10vh 8vh;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.2vh;
+    
+}
+.footer-heading{
+    font-size: 2.7vh;
+    color: red;
+    text-decoration: underline;
+}
+footer nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #0d1b2a;
+    color: #415a77;
+    border-top: 1vh solid#fff;
+    /* padding-bottom: 10vh; */
+}
+footer nav ul li a i{
+    color: #415a77;
+}
+.copyright{
+    display: flex;
+    text-decoration: underline;
+    cursor: default;
+}
+.back-top{
+    color: #e0e1dd;
+    font-size: 3vh;
+    background-color:#415a77;
+    display: flex;
+    justify-content: center;
+    padding-top:5vh;
+}
+.back-top button{
+    border:none;
+    background-color: transparent;
+    color: #e0e1dd;
+    font-size: 3vh;
+    margin-right: 0.8vh;
+    text-decoration: underline;
+}
+.back-top button:hover{
+    cursor: pointer;
+}
+.social-inf ul li a{
+    text-decoration: none;
+    color:#0d1b2a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4vh;
+    margin-right: 10px;
+    
+}
+.social-inf ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.description{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
