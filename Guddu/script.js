@@ -49,3 +49,13 @@ contact.addEventListener("click",()=>{
         behavior:"smooth"
     })
 })
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz_uicuSIliGvwGnqfidHTajqR3QCeR5ebb0RsQxDhPX9Lm8IwN0VEd0-D67jQXtetzaw/exec'
+			const form = document.forms['formName']
+		  
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
