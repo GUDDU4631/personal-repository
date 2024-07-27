@@ -1,0 +1,269 @@
+body {
+    background-color: #FB8B24;
+}
+
+nav div #logo {
+    color: #9A031E;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body .navbar {
+    background-color: #E36414;
+    border-bottom: 2px solid #fff;
+}
+
+body #navbar {
+    background-color: #E36414;
+}
+
+#nav-section {
+    color: #5F0F40;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#homePage-content {
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background-color: #FB8B24;
+}
+
+#content-image {
+    height: 200px;
+    width: 200px
+}
+
+@media (max-width:991px) {
+    #content-image {
+        display: none;
+    }
+
+    #content {
+        justify-content: center;
+    }
+
+    #homePage-content {
+        justify-content: center;
+    }
+
+    #nav-section {
+        border-top: 0.5px solid #fff;
+    }
+
+}
+
+@media(max-width:850px) {
+    .img img {
+        display: none;
+    }
+
+    .content {
+        text-align: center;
+    }
+}
+
+#main-container {
+    margin-top: 30px;
+}
+
+.img img {
+    height: 500px;
+    filter: drop-shadow(20px 10px 8px #e36414);
+}
+
+.fs-1 .fs-3 {
+    font-family: "ubuntu";
+}
+
+#Explore {
+    background-color: #9A031E;
+    color: #fff;
+    font-family: "playfair Display", serif;
+}
+
+#text-animation {
+    border-right: 2px solid #5F0F40;
+    animation: InOUT 5s infinite;
+    animation: typing 3s steps(20) infinite, blink 0.75s infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-right: transparent;
+    }
+
+    50% {
+        border-right: 2px solid #5F0F40;
+    }
+}
+
+.main-project {
+    background-color: #e36414;
+    padding-top: 50px;
+    border-top: 5px solid #fff;
+    height: 600px;
+    border-bottom: 5px solid #fff;
+}
+
+@media(max-width:991px) {
+    .introduction-dp {
+        background-color: #e36414;
+        display: none;
+    }
+
+    .main-project {
+        margin-top: 0px;
+    }
+}
+
+.skills {
+    height: 250px;
+    border-bottom: 5px solid #fff;
+}
+
+.youtube-section {
+    height: 400px;
+    background-color: #e36414;
+    border-bottom: 5px solid #fff;
+}
+
+.youtube-section div div p strong {
+    color: #5F0F40;
+}
+
+.form-container p {
+    background-color: #370214;
+    border: #000 2px solid;
+    color: #fff;
+    font-family: cursive;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 20px 0px;
+}
+
+@media(max-width:991px) {
+    #youtube-content {
+        /* /* flex-direction: column; */
+        padding-left: 10px;
+        background-color: #e36414;
+        border-bottom: 5px solid #fff;
+    }
+
+    #youtubeVideo {
+        display: none;
+    }
+
+    .name {
+        flex-direction: column;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .msg {
+        flex-direction: column;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .form-container form div input {
+        margin: 10px 0px;
+
+    }
+}
+
+.form-container form div {
+    padding: 10px 0px;
+}
+
+.form-container {
+    border-bottom: #fff 5px solid;
+}
+
+.name input {
+    width: 347px;
+    height: 50px;
+    border: #000 2px solid;
+    border-radius: 20px;
+    padding: 0px 20px;
+    font-family: cursive;
+    background-color: #5F0F40;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.msg input {
+    width: 347px;
+    flex-wrap: wrap;
+    height: 50px;
+    border: #000 2px solid;
+    border-radius: 20px;
+    padding: 0px 20px;
+    font-family: cursive;
+    background-color: #5F0F40;
+    color: #fff;
+}
+
+.summitBtn button {
+    width: 347px;
+    flex-wrap: wrap;
+    height: 50px;
+    border: #000 2px solid;
+    border-radius: 20px;
+    padding: 0px 20px;
+    font-family: cursive;
+    background-color: #9A031E;
+    color: #fff;
+}
+
+.summitBtn :hover {
+    background-color: #4f0412;
+}
+
+.about-portfolio {
+    height: 400px;
+    background-color: #2f061f;
+    color: #FB8B24;
+}
+
+#footer-about {
+    border-bottom: 2px solid #fff;
+    padding: 50px 0px;
+    justify-content: space-evenly;
+}
+
+#footer-contactBtn {
+    border: 2px solid #fff;
+    background-color: #370214;
+    color: #FB8B24;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+@media(max-width:550px) {
+    .about-portfolio {
+        height: 600px;
+    }
+
+    #footer-about {
+        flex-direction: column;
+        padding: 0px 20px 0px 50px;
+    }
+}
