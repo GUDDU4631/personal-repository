@@ -2,14 +2,4 @@
 This is my first repository.
 
 # My Information
- My self : Guddu Kumar Chaudhary.
- <br>
- I ma 18 year old , I study in JBIT College Dehredun.
- <br>
- This is my socal media Account .
- <br>
- [FACEBOOK](https://www.facebook.com/)
- <br>
- [INSTAGRAM](https://www.instagram.com/)
- <br>
-[YOUTUBE](https://www.youtube.com/channel/UCBBXbKxix4ULQVuQtJv8YOA)
+This repository have some project like **[ AMAZON clone , NETFLIX clone , TIC TAC TOE game , & GUDDU PORTFOLIO website ]** .This all project I create using HTML,CSS,& JAVA Script . I also built the restaurant app not app but it is my first project using python I can do some more project in a days but I today I learn REACT JS so it take some time.
